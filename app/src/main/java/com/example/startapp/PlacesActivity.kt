@@ -1,13 +1,12 @@
-package com.ahmadmansour.startapp
+package com.example.startapp
 
 import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.ahmadmansour.model.Place
+import com.example.model.Place
 import kotlinx.android.synthetic.main.activity_places.*
 import kotlinx.android.synthetic.main.place_view_row.view.*
 

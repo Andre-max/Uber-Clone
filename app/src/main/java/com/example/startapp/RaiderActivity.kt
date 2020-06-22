@@ -1,4 +1,4 @@
-package com.ahmadmansour.startapp
+package com.example.startapp
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -13,7 +13,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.widget.Toast
-import com.ahmadmansour.model.Place
+import com.example.model.Place
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap

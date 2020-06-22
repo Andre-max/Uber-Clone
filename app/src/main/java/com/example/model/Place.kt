@@ -1,4 +1,4 @@
-package com.ahmadmansour.model
+package com.example.model
 
 import android.location.Location
 

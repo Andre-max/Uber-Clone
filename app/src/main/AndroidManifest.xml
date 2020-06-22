@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ahmadmansour.startapp">
+    package="com.example.startapp">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -12,12 +12,12 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name=".App"
+        android:name="com.example.startapp.App"
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ParseActivity">
+        <activity android:name="com.example.startapp.ParseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,11 +37,11 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".RaiderActivity"
+            android:name="com.example.startapp.RaiderActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".PlacesActivity" />
-        <activity android:name=".TipsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.startapp.PlacesActivity" />
+        <activity android:name="com.example.startapp.TipsActivity" />
+        <activity android:name="com.example.startapp.MainActivity">
 
         </activity>
     </application>

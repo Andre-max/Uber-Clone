@@ -1,10 +1,10 @@
-package com.ahmadmansour.startapp
+package com.example.startapp
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
-import com.ahmadmansour.model.Tip
+import com.example.model.Tip
 import kotlinx.android.synthetic.main.activity_tips.*
 
 class TipsActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.ahmadmansour.startapp
+package com.example.startapp
 
 import android.app.ProgressDialog
 import android.content.Context
@@ -12,10 +12,7 @@ import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.view.View
 import android.widget.Button
-import android.widget.ProgressBar
-import com.parse.ParseException
 import com.parse.ParseObject
-import com.parse.SaveCallback
 import kotlinx.android.synthetic.main.activity_parse.*
 
 class ParseActivity : AppCompatActivity() {

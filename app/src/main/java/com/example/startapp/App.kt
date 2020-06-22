@@ -1,9 +1,8 @@
-package com.ahmadmansour.startapp
+package com.example.startapp
 
 
 import android.app.Application
-    import android.util.Log
-    import com.parse.*
+import com.parse.*
 
 
     class App : Application() {
